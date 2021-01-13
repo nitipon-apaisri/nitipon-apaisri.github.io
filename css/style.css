@@ -1,3 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Source+Sans+Pro:wght@700&display=swap");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+hr {
+  margin: 0;
+}
 
+body {
+  margin: 0;
+  background-color: #f5f6fc;
+}
+body header {
+  background-color: #fff;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+body header nav {
+  width: 1440px;
+  margin: auto;
+  display: flex;
+}
+body header nav img {
+  width: 48px;
+  height: 48px;
+}
+body header nav ul {
+  width: 400px;
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  text-decoration: none;
+}
+body header nav ul li {
+  font-family: "Source Sans Pro", sans-serif;
+}
+body main {
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 32px;
+}
+body main .hero {
+  background-color: #fff;
+  padding: 64px;
+  border-radius: 20px;
+  max-width: 1440px;
+  margin: 50px auto;
+  display: flex;
+}
+body main .hero .about {
+  margin-left: 130px;
+}
+body main .hero .about h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 3rem;
+}
+body main .hero .about .about-info {
+  margin-top: 24px;
+}
+body main .hero .about .about-info p {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0.05rem;
+  color: #b7b7b7;
+}
+body main .hero .about .contact-mini {
+  margin-top: 30px;
+  max-height: 400px;
+  width: 180px;
+  padding: 15px;
+  border-radius: 12px;
+  border: 2px solid #fff;
+  background-color: #333333;
+}
+body main .hero .about .contact-mini a {
+  cursor: pointer;
+  text-decoration: none;
+}
+body main .hero .about .contact-mini a .github {
+  display: flex;
+  align-items: center;
+}
+body main .hero .about .contact-mini a .github img {
+  width: 32px;
+  height: 32px;
+}
+body main .hero .about .contact-mini a .github h4 {
+  letter-spacing: 0.05rem;
+  margin: auto;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+}
+body main .hero .about .contact-mini:hover {
+  border: 2px solid #333333;
+  background-color: #fff;
+  transition-duration: 200ms;
+}
+body main .hero .about .contact-mini:hover .github h4 {
+  color: #333333;
+}
 
 /*# sourceMappingURL=style.css.map */

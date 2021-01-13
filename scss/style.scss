@@ -1,0 +1,110 @@
+@import "_variables";
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+hr {
+   margin: 0;
+}
+body {
+   margin: 0;
+   background-color: #f5f6fc;
+   header {
+      background-color: #fff;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      nav {
+         width: 1440px;
+         margin: auto;
+         display: flex;
+
+         img {
+            width: 48px;
+            height: 48px;
+         }
+         ul {
+            width: 400px;
+            max-width: 400px;
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            text-decoration: none;
+            li {
+               font-family: $bold-font;
+            }
+         }
+      }
+   }
+   main {
+      max-width: 1440px;
+      margin: auto;
+      padding: 0 32px;
+      .hero {
+         background-color: #fff;
+         padding: 64px;
+         border-radius: 20px;
+         max-width: 1440px;
+         margin: 50px auto;
+         display: flex;
+         .about {
+            margin-left: 130px;
+            h1 {
+               font-family: $bold-font;
+               font-size: 3rem;
+            }
+            .about-info {
+               margin-top: 24px;
+               p {
+                  font-family: $para-font;
+                  font-size: 0.9rem;
+                  font-weight: 400;
+                  letter-spacing: 0.05rem;
+                  color: #b7b7b7;
+               }
+            }
+            .contact-mini {
+               margin-top: 30px;
+               max-height: 400px;
+               width: 180px;
+               padding: 15px;
+               border-radius: 12px;
+               border: 2px solid #fff;
+               background-color: #333333;
+               a {
+                  cursor: pointer;
+                  text-decoration: none;
+                  .github {
+                     display: flex;
+                     align-items: center;
+                     img {
+                        width: 32px;
+                        height: 32px;
+                     }
+                     h4 {
+                        letter-spacing: 0.05rem;
+                        margin: auto;
+                        text-transform: uppercase;
+                        color: #fff;
+                        font-family: $bold-font;
+                     }
+                  }
+               }
+            }
+            .contact-mini:hover {
+               border: 2px solid #333333;
+               background-color: #fff;
+               transition-duration: 200ms;
+               .github {
+                  h4 {
+                     color: #333333;
+                  }
+               }
+            }
+         }
+      }
+   }
+}
