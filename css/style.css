@@ -1,21 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Source+Sans+Pro:wght@700&display=swap");
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-hr {
+h1, h2, h3, h4, h5, h6, p, hr {
   margin: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Source Sans Pro", sans-serif;
 }
 
@@ -147,9 +135,19 @@ body main .showcase .projects .card-project .project-info h1 {
   font-size: 2rem;
 }
 body main .showcase .projects .card-project .project-info p {
-  margin: 0.8rem 0;
+  margin: 0.5rem 0 1.5rem 0;
   font-size: 0.8rem;
   font-weight: 300;
+}
+body main .showcase .projects .card-project .project-info a {
+  cursor: pointer;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: #333;
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
