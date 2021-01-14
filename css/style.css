@@ -10,6 +10,19 @@ hr {
   margin: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
 body {
   margin: 0;
   background-color: #f5f6fc;
@@ -45,32 +58,30 @@ body main {
   margin: auto;
   padding: 0 32px;
 }
-body main .hero {
+body main .hero, body main .showcase {
   background-color: #fff;
   padding: 64px;
   border-radius: 20px;
   max-width: 1440px;
-  margin: 50px auto;
+  margin: 50px auto 25px auto;
   display: flex;
 }
-body main .hero .about {
+body main .hero .about, body main .showcase .about {
   margin-left: 130px;
 }
-body main .hero .about h1 {
-  font-family: "Source Sans Pro", sans-serif;
+body main .hero .about h1, body main .showcase .about h1 {
   font-size: 3rem;
 }
-body main .hero .about .about-info {
+body main .hero .about .about-info, body main .showcase .about .about-info {
   margin-top: 24px;
 }
-body main .hero .about .about-info p {
-  font-family: "Poppins", sans-serif;
+body main .hero .about .about-info p, body main .showcase .about .about-info p {
   font-size: 0.9rem;
   font-weight: 400;
   letter-spacing: 0.05rem;
   color: #b7b7b7;
 }
-body main .hero .about .contact-mini {
+body main .hero .about .contact-mini, body main .showcase .about .contact-mini {
   margin-top: 30px;
   max-height: 400px;
   width: 180px;
@@ -79,32 +90,66 @@ body main .hero .about .contact-mini {
   border: 2px solid #fff;
   background-color: #333333;
 }
-body main .hero .about .contact-mini a {
+body main .hero .about .contact-mini a, body main .showcase .about .contact-mini a {
   cursor: pointer;
   text-decoration: none;
 }
-body main .hero .about .contact-mini a .github {
+body main .hero .about .contact-mini a .github, body main .showcase .about .contact-mini a .github {
   display: flex;
   align-items: center;
 }
-body main .hero .about .contact-mini a .github img {
+body main .hero .about .contact-mini a .github img, body main .showcase .about .contact-mini a .github img {
   width: 32px;
   height: 32px;
 }
-body main .hero .about .contact-mini a .github h4 {
+body main .hero .about .contact-mini a .github h4, body main .showcase .about .contact-mini a .github h4 {
   letter-spacing: 0.05rem;
   margin: auto;
   text-transform: uppercase;
   color: #fff;
   font-family: "Source Sans Pro", sans-serif;
 }
-body main .hero .about .contact-mini:hover {
+body main .hero .about .contact-mini:hover, body main .showcase .about .contact-mini:hover {
   border: 2px solid #333333;
   background-color: #fff;
   transition-duration: 200ms;
 }
-body main .hero .about .contact-mini:hover .github h4 {
+body main .hero .about .contact-mini:hover .github h4, body main .showcase .about .contact-mini:hover .github h4 {
   color: #333333;
+}
+body main .showcase {
+  display: block;
+}
+body main .showcase h1 {
+  letter-spacing: 0.05rem;
+  font-size: 2.5rem;
+}
+body main .showcase .projects {
+  margin: 32px 0 0 0;
+  display: grid;
+  grid-gap: 24px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-flow: row;
+}
+body main .showcase .projects .card-project {
+  grid-column: span 6;
+  padding: 64px;
+  display: flex;
+  border-radius: 24px;
+  background-color: #333333;
+}
+body main .showcase .projects .card-project .project-info {
+  margin: 0 40px;
+  color: #fff;
+  letter-spacing: 0.05rem;
+}
+body main .showcase .projects .card-project .project-info h1 {
+  font-size: 2rem;
+}
+body main .showcase .projects .card-project .project-info p {
+  margin: 0.8rem 0;
+  font-size: 0.8rem;
+  font-weight: 300;
 }
 
 /*# sourceMappingURL=style.css.map */
