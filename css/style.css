@@ -46,7 +46,7 @@ body main {
   margin: auto;
   padding: 0 32px;
 }
-body main .hero, body main .showcase {
+body main .hero, body main .skills, body main .showcase {
   background-color: #fff;
   padding: 64px;
   border-radius: 20px;
@@ -54,22 +54,22 @@ body main .hero, body main .showcase {
   margin: 50px auto 25px auto;
   display: flex;
 }
-body main .hero .about, body main .showcase .about {
+body main .hero .about, body main .skills .about, body main .showcase .about {
   margin-left: 130px;
 }
-body main .hero .about h1, body main .showcase .about h1 {
+body main .hero .about h1, body main .skills .about h1, body main .showcase .about h1 {
   font-size: 3rem;
 }
-body main .hero .about .about-info, body main .showcase .about .about-info {
+body main .hero .about .about-info, body main .skills .about .about-info, body main .showcase .about .about-info {
   margin-top: 24px;
 }
-body main .hero .about .about-info p, body main .showcase .about .about-info p {
+body main .hero .about .about-info p, body main .skills .about .about-info p, body main .showcase .about .about-info p {
   font-size: 0.9rem;
   font-weight: 400;
   letter-spacing: 0.05rem;
   color: #b7b7b7;
 }
-body main .hero .about .contact-mini, body main .showcase .about .contact-mini {
+body main .hero .about .contact-mini, body main .skills .about .contact-mini, body main .showcase .about .contact-mini {
   margin-top: 30px;
   max-height: 400px;
   width: 180px;
@@ -78,31 +78,31 @@ body main .hero .about .contact-mini, body main .showcase .about .contact-mini {
   border: 2px solid #fff;
   background-color: #333333;
 }
-body main .hero .about .contact-mini a, body main .showcase .about .contact-mini a {
+body main .hero .about .contact-mini a, body main .skills .about .contact-mini a, body main .showcase .about .contact-mini a {
   cursor: pointer;
   text-decoration: none;
 }
-body main .hero .about .contact-mini a .github, body main .showcase .about .contact-mini a .github {
+body main .hero .about .contact-mini a .github, body main .skills .about .contact-mini a .github, body main .showcase .about .contact-mini a .github {
   display: flex;
   align-items: center;
 }
-body main .hero .about .contact-mini a .github img, body main .showcase .about .contact-mini a .github img {
+body main .hero .about .contact-mini a .github img, body main .skills .about .contact-mini a .github img, body main .showcase .about .contact-mini a .github img {
   width: 32px;
   height: 32px;
 }
-body main .hero .about .contact-mini a .github h4, body main .showcase .about .contact-mini a .github h4 {
+body main .hero .about .contact-mini a .github h4, body main .skills .about .contact-mini a .github h4, body main .showcase .about .contact-mini a .github h4 {
   letter-spacing: 0.05rem;
   margin: auto;
   text-transform: uppercase;
   color: #fff;
   font-family: "Source Sans Pro", sans-serif;
 }
-body main .hero .about .contact-mini:hover, body main .showcase .about .contact-mini:hover {
+body main .hero .about .contact-mini:hover, body main .skills .about .contact-mini:hover, body main .showcase .about .contact-mini:hover {
   border: 2px solid #333333;
   background-color: #fff;
   transition-duration: 200ms;
 }
-body main .hero .about .contact-mini:hover .github h4, body main .showcase .about .contact-mini:hover .github h4 {
+body main .hero .about .contact-mini:hover .github h4, body main .skills .about .contact-mini:hover .github h4, body main .showcase .about .contact-mini:hover .github h4 {
   color: #333333;
 }
 body main .showcase {
@@ -148,6 +148,44 @@ body main .showcase .projects .card-project .project-info a {
   color: #333;
   font-family: "Source Sans Pro", sans-serif;
   background-color: #fff;
+}
+body main .skills {
+  display: block;
+}
+body main .skills h1 {
+  letter-spacing: 0.05rem;
+  font-size: 2.5rem;
+}
+body main .skills .skills-cate {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 24px;
+  margin-top: 12px;
+}
+body main .skills .skills-cate .category {
+  grid-column: span 4;
+}
+body main .skills .skills-cate .category .skill-icons {
+  margin: 12px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  background-color: #333;
+  padding: 64px;
+  border-radius: 24px;
+}
+body main .skills .skills-cate .category .skill-icons .icon {
+  display: flex;
+  border-radius: 16px;
+  grid-column: span 1;
+  max-width: 131px;
+  padding: 34px;
+  background-color: #212121;
+  align-items: center;
+  justify-content: center;
+}
+body main .skills .skills-cate .category .skill-icons .icon img {
+  width: 64px;
 }
 
 /*# sourceMappingURL=style.css.map */
