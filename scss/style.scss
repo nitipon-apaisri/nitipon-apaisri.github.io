@@ -161,11 +161,11 @@ body {
             display: grid;
             grid-template-columns: repeat(12, 1fr);
             grid-gap: 24px;
-            margin-top: 12px;
+            margin-top: 16px;
             .category {
                grid-column: span 4;
                .skill-icons {
-                  margin: 12px 0;
+                  margin: 16px 0;
                   display: grid;
                   grid-template-columns: repeat(2, 1fr);
                   grid-gap: 10px;
