@@ -1,4 +1,4 @@
-@media screen and (min-width: 1024px) and (max-width: 1439px) {
+@media screen and (max-width: 1024px) {
    body {
       main {
          .hero {
@@ -50,7 +50,7 @@
                   .project-info {
                      margin: 0 0 0 16px;
                      max-height: 128px;
-                     overflow: hidden;
+                     overflow: scroll;
                      h1 {
                         font-size: 1.2rem;
                      }
@@ -79,6 +79,191 @@
                         padding: 28px;
                         img {
                            width: 32px;
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}
+@media screen and (min-width: 1025px) and (max-width: 1439) {
+   body {
+      main {
+         .hero {
+            img {
+               width: 200px;
+               height: 200px;
+               max-width: 200px;
+               max-height: 200px;
+            }
+            .about {
+               margin-left: 70px;
+               h1 {
+                  font-size: 2.5rem;
+               }
+               .about-info {
+                  margin-top: 4px;
+                  p {
+                     font-size: 0.7rem;
+                  }
+               }
+               .contact-mini {
+                  width: 90px;
+                  margin-top: 8px;
+                  padding: 12px;
+                  a {
+                     .github {
+                        img {
+                           width: 16px;
+                           height: 16px;
+                        }
+                        h4 {
+                           font-size: 0.7rem;
+                        }
+                     }
+                  }
+               }
+            }
+         }
+         .showcase {
+            h1 {
+               font-size: 2rem;
+            }
+            .projects {
+               .card-project {
+                  padding: 32px;
+                  img {
+                     max-height: 128px;
+                  }
+                  .project-info {
+                     margin: 0 0 0 16px;
+                     max-height: 128px;
+                     overflow: scroll;
+                     h1 {
+                        font-size: 1.2rem;
+                     }
+                     p {
+                        letter-spacing: 0.09rem;
+                        font-size: 0.5rem;
+                        margin-bottom: 1rem;
+                     }
+                     a {
+                        font-size: 0.7rem;
+                     }
+                  }
+               }
+            }
+         }
+         .skills {
+            h1 {
+               font-size: 2rem;
+            }
+            .skills-cate {
+               grid-gap: 12px;
+               .category {
+                  .skill-icons {
+                     padding: 32px;
+                     .icon {
+                        padding: 28px;
+                        img {
+                           width: 32px;
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}
+@media screen and (max-width: 768px) {
+   body {
+      main {
+         .hero {
+            padding: 32px;
+            img {
+               width: 200px;
+               height: 200px;
+               max-width: 200px;
+               max-height: 200px;
+            }
+            .about {
+               margin-left: 52px;
+               h1 {
+                  font-size: 2rem;
+               }
+               .about-info {
+                  margin-top: 4px;
+                  p {
+                     font-size: 0.6rem;
+                  }
+               }
+               .contact-mini {
+                  width: 90px;
+                  margin-top: 8px;
+                  padding: 12px;
+                  a {
+                     .github {
+                        img {
+                           width: 16px;
+                           height: 16px;
+                        }
+                        h4 {
+                           font-size: 0.7rem;
+                        }
+                     }
+                  }
+               }
+            }
+         }
+         .showcase {
+            padding: 32px;
+            h1 {
+               font-size: 2rem;
+            }
+            .projects {
+               margin: 16px 0 0 0;
+               .card-project {
+                  padding: 32px;
+                  img {
+                     max-height: 96px;
+                  }
+                  .project-info {
+                     margin: 0 0 0 16px;
+                     max-height: 96px;
+                     overflow: scroll;
+                     h1 {
+                        font-size: 1.2rem;
+                     }
+                     p {
+                        letter-spacing: 0.09rem;
+                        font-size: 0.5rem;
+                        margin-bottom: 1rem;
+                     }
+                     a {
+                        font-size: 0.7rem;
+                     }
+                  }
+               }
+            }
+         }
+         .skills {
+            padding: 32px;
+            h1 {
+               font-size: 2rem;
+            }
+            .skills-cate {
+               margin: 0;
+               grid-gap: 12px;
+               .category {
+                  .skill-icons {
+                     padding: 24px;
+                     .icon {
+                        padding: 16px;
+                        img {
+                           width: 16px;
                         }
                      }
                   }
