@@ -1,0 +1,74 @@
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  body main .hero img {
+    width: 200px;
+    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+  }
+  body main .hero .about {
+    margin-left: 70px;
+  }
+  body main .hero .about h1 {
+    font-size: 2.5rem;
+  }
+  body main .hero .about .about-info {
+    margin-top: 4px;
+  }
+  body main .hero .about .about-info p {
+    font-size: 0.7rem;
+  }
+  body main .hero .about .contact-mini {
+    width: 90px;
+    margin-top: 8px;
+    padding: 12px;
+  }
+  body main .hero .about .contact-mini a .github img {
+    width: 16px;
+    height: 16px;
+  }
+  body main .hero .about .contact-mini a .github h4 {
+    font-size: 0.7rem;
+  }
+  body main .showcase h1 {
+    font-size: 2rem;
+  }
+  body main .showcase .projects .card-project {
+    padding: 32px;
+  }
+  body main .showcase .projects .card-project img {
+    max-height: 128px;
+  }
+  body main .showcase .projects .card-project .project-info {
+    margin: 0 0 0 16px;
+    max-height: 128px;
+    overflow: hidden;
+  }
+  body main .showcase .projects .card-project .project-info h1 {
+    font-size: 1.2rem;
+  }
+  body main .showcase .projects .card-project .project-info p {
+    letter-spacing: 0.09rem;
+    font-size: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  body main .showcase .projects .card-project .project-info a {
+    font-size: 0.7rem;
+  }
+  body main .skills h1 {
+    font-size: 2rem;
+  }
+  body main .skills .skills-cate {
+    grid-gap: 12px;
+  }
+  body main .skills .skills-cate .category .skill-icons {
+    padding: 32px;
+  }
+  body main .skills .skills-cate .category .skill-icons .icon {
+    padding: 28px;
+  }
+  body main .skills .skills-cate .category .skill-icons .icon img {
+    width: 32px;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */

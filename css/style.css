@@ -25,6 +25,7 @@ body header nav {
   width: 1440px;
   margin: auto;
   display: flex;
+  padding: 0 32px;
 }
 body header nav img {
   width: 48px;
@@ -34,7 +35,7 @@ body header nav ul {
   width: 400px;
   max-width: 400px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   list-style: none;
   text-decoration: none;
 }
@@ -53,6 +54,9 @@ body main .hero, body main .skills, body main .showcase {
   max-width: 1440px;
   margin: 50px auto 25px auto;
   display: flex;
+}
+body main .hero img, body main .skills img, body main .showcase img {
+  max-height: 400px;
 }
 body main .hero .about, body main .skills .about, body main .showcase .about {
   margin-left: 130px;
